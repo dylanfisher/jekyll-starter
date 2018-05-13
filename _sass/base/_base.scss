@@ -1,0 +1,17 @@
+html {
+  @include default-font;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+}
